@@ -1,5 +1,7 @@
 # PPM-HOSPITAL  
 
+![PyPI - Python Version](https://img.shields.io/badge/python-3.12-3776AB?logo=python)
+
 ## > Scripts
 01_data_preprocessing.ipynb: Analyses and filter initial event log (saved in DATA_DIR).  
 02_data_prefix.ipynb: Given an event log, it extracts its 'prefix' (the first n events) and save it in DATA_LOG_DIR.  
