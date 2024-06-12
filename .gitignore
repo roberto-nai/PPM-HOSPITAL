@@ -167,8 +167,6 @@ data_log_encoded/
 **/.DS_Store
 
 # Ignore every file the directory
-_old/*
-_todo/*
 data_log/*
 data_log_encoded/*
 
