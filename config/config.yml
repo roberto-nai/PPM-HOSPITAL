@@ -1,0 +1,21 @@
+DATA_DIR: data # directory with initial data
+DATA_LOG_DIR: data_log # directory with initial data filtered
+DATA_LOG_ENCODED_DIR: data_log_encoded # directory with data encoded 
+# event log
+LOG_KEY_COL: CaseID # key column (case-id)
+LOG_ACTIVITY_COL: ACTIVITY # activity column
+LOG_TIMESTAMP_COL: TIMESTAMP  # timestamp column
+LOG_FEATURE_COL: # feature columns
+  - RESOURCE
+  - ESI
+  - INPAT-HOSP-DEP
+# event log sample
+SAMPLE_SIZE: 450 # Rows for each distinct outcome value to be extracted
+# Prefixes (the values should be consistent with the distribution of trace lengths or according to the objective of your experiment)
+PREF_MIN_VALUE: 2
+PREF_MAX_VALUE: 5
+# Preditcion
+LOG_OUTCOME_COL: OUTCOME # label column
+LOG_OUTCOME_COL_VALUES: # label column values
+  - "A domicilio"
+  - "Ricoverato"
